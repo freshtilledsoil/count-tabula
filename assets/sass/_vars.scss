@@ -1,0 +1,41 @@
+$ns : '' !default;
+
+$c-grey:                      #ccc !default;
+$c-off-white:                 #f8f8f8 !default;
+$c-almost-white:              #fafafa !default;
+$c-white:                     #fff !default;
+$c-blue:                      #4464c2 !default;
+$c-primary:                   $c-blue !default;
+$link--color:                 $c-primary !default;
+$c-darkest-grey:              #444 !default;
+$c-light-blue:                #6589f2 !default;
+
+
+$tab-container--border:                 1px solid $c-grey !default;
+
+$tab-list--border:                      none!default;
+
+$tab-list__item--bg:                    $c-off-white !default;
+$tab-list__item--border:                1px solid $c-grey !default;
+$tab-list__item--color:                 $link--color !default;
+$tab-list__item--padding:               12px 16px !default;
+$tab-list__item--text-decoration:       none !default;
+
+$tab-panel--bg:                         $c-white !default;
+$tab-panel--min-height:                 200px !default;
+$tab-panel--padding:                    20px !default;
+
+  //states
+  $tab-list__item--alt-bg:              $link--color !default;
+  $tab-list__item--alt-color:           $c-white !default;
+
+  $tab-list__item--selected--bg:        $c-white !default;
+  $tab-list__item--selected--color:     $c-darkest-grey !default;
+
+  $tab-list__item--selected--bg--alt:   $c-light-blue !default;
+  $tab-list__item--selected--color--alt:   $c-white !default;
+
+  $tab-list__item--bleed:               false !default;
+  $tab-list__item--bleed--height:       1px !default;
+
+//------------------------------------------------------------------------
