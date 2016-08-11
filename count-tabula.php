@@ -1,7 +1,7 @@
 <?php
 /*
 * Plugin Name: Count Tabula
-* Plugin URI: http://www.freshtilledsoil.com/
+* Plugin URI: https://github.com/freshtilledsoil/count-tabula
 * Description: Create accessible, responsive tabs using the Wordpress WYSIWYG editor.
 * Version: 0.1
 * Author: Fresh Tilled Soil
