@@ -67,8 +67,8 @@ class CountTabula {
     //
     //***************************************************************************
     static function enqueue_scripts_styles() {
-        wp_register_style( 'count-t-styles', plugins_url('static/assets/css/styles.css', __FILE__) );
-        wp_register_script( 'count-t-js', plugins_url('static/assets/js/a11ytabs.js', __FILE__), array('jquery'), '', true );
+        wp_register_style( 'count-t-styles', plugins_url('static/assets/styles.css', __FILE__) );
+        wp_register_script( 'count-t-js', plugins_url('static/assets/a11ytabs.js', __FILE__), array('jquery'), '', true );
     }
 }
 CountTabula::init();
