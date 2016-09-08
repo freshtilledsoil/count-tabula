@@ -46,7 +46,7 @@ class CountTabula {
         extract(shortcode_atts(array( 'id' => '' ), $atts));
 
         return
-        '<div class="tab-container" data-action="a11y-tabs" data-aria="false" id="' . esc_attr($id) . '">' .
+        '<div class="tab-container" data-action="a11y-tabs" id="' . esc_attr($id) . '">' .
             do_shortcode( $content ) .
         '</div>';
     }
@@ -67,8 +67,8 @@ class CountTabula {
     //
     //***************************************************************************
     static function enqueue_scripts_styles() {
-        wp_register_style( 'count-t-styles', plugins_url('assets/css/count-tabula.css', __FILE__) );
-        wp_register_script( 'count-t-js', plugins_url('assets/js/count-tabula.js', __FILE__), array('jquery'), '', true );
+        wp_register_style( 'count-t-styles', plugins_url('static/assets/css/styles.css', __FILE__) );
+        wp_register_script( 'count-t-js', plugins_url('static/assets/js/a11ytabs.js', __FILE__), array('jquery'), '', true );
     }
 }
 CountTabula::init();
